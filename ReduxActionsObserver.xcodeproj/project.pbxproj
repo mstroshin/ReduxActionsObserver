@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		9457A72A24B47926004647BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A72924B47926004647BE /* AppDelegate.swift */; };
 		9457A72C24B47926004647BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A72B24B47926004647BE /* SceneDelegate.swift */; };
-		9457A72E24B47926004647BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A72D24B47926004647BE /* ContentView.swift */; };
 		9457A73024B47927004647BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9457A72F24B47927004647BE /* Assets.xcassets */; };
 		9457A73324B47927004647BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9457A73224B47927004647BE /* Preview Assets.xcassets */; };
 		9457A73624B47927004647BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9457A73424B47927004647BE /* LaunchScreen.storyboard */; };
+		9457A73E24B47A13004647BE /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A73D24B47A13004647BE /* Redux.swift */; };
+		9457A74024B47A34004647BE /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A73F24B47A34004647BE /* State.swift */; };
+		9457A74224B47A59004647BE /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74124B47A59004647BE /* Actions.swift */; };
+		9457A74424B47B27004647BE /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74324B47B27004647BE /* Reducer.swift */; };
+		9457A74624B47BF7004647BE /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74524B47BF7004647BE /* Connector.swift */; };
+		9457A74824B47C63004647BE /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74724B47C63004647BE /* TodoListView.swift */; };
+		9457A74A24B47CBF004647BE /* TodoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74924B47CBF004647BE /* TodoItemView.swift */; };
+		9457A74C24B47CF4004647BE /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74B24B47CF4004647BE /* RootView.swift */; };
+		9457A74E24B47D78004647BE /* TodoCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9457A74D24B47D78004647BE /* TodoCreatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9457A72624B47926004647BE /* ReduxActionsObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxActionsObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9457A72924B47926004647BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9457A72B24B47926004647BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9457A72D24B47926004647BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9457A72F24B47927004647BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9457A73224B47927004647BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9457A73524B47927004647BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9457A73724B47927004647BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9457A73D24B47A13004647BE /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
+		9457A73F24B47A34004647BE /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		9457A74124B47A59004647BE /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		9457A74324B47B27004647BE /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		9457A74524B47BF7004647BE /* Connector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		9457A74724B47C63004647BE /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		9457A74924B47CBF004647BE /* TodoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemView.swift; sourceTree = "<group>"; };
+		9457A74B24B47CF4004647BE /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9457A74D24B47D78004647BE /* TodoCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCreatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +72,20 @@
 		9457A72824B47926004647BE /* ReduxActionsObserver */ = {
 			isa = PBXGroup;
 			children = (
-				9457A72924B47926004647BE /* AppDelegate.swift */,
-				9457A72B24B47926004647BE /* SceneDelegate.swift */,
-				9457A72D24B47926004647BE /* ContentView.swift */,
+				9457A74F24B47E0C004647BE /* App */,
 				9457A72F24B47927004647BE /* Assets.xcassets */,
 				9457A73424B47927004647BE /* LaunchScreen.storyboard */,
 				9457A73724B47927004647BE /* Info.plist */,
 				9457A73124B47927004647BE /* Preview Content */,
+				9457A73D24B47A13004647BE /* Redux.swift */,
+				9457A73F24B47A34004647BE /* State.swift */,
+				9457A74124B47A59004647BE /* Actions.swift */,
+				9457A74324B47B27004647BE /* Reducer.swift */,
+				9457A74524B47BF7004647BE /* Connector.swift */,
+				9457A74724B47C63004647BE /* TodoListView.swift */,
+				9457A74924B47CBF004647BE /* TodoItemView.swift */,
+				9457A74B24B47CF4004647BE /* RootView.swift */,
+				9457A74D24B47D78004647BE /* TodoCreatorView.swift */,
 			);
 			path = ReduxActionsObserver;
 			sourceTree = "<group>";
@@ -73,6 +96,15 @@
 				9457A73224B47927004647BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9457A74F24B47E0C004647BE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9457A72924B47926004647BE /* AppDelegate.swift */,
+				9457A72B24B47926004647BE /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +180,15 @@
 			files = (
 				9457A72A24B47926004647BE /* AppDelegate.swift in Sources */,
 				9457A72C24B47926004647BE /* SceneDelegate.swift in Sources */,
-				9457A72E24B47926004647BE /* ContentView.swift in Sources */,
+				9457A73E24B47A13004647BE /* Redux.swift in Sources */,
+				9457A74E24B47D78004647BE /* TodoCreatorView.swift in Sources */,
+				9457A74224B47A59004647BE /* Actions.swift in Sources */,
+				9457A74C24B47CF4004647BE /* RootView.swift in Sources */,
+				9457A74424B47B27004647BE /* Reducer.swift in Sources */,
+				9457A74824B47C63004647BE /* TodoListView.swift in Sources */,
+				9457A74624B47BF7004647BE /* Connector.swift in Sources */,
+				9457A74024B47A34004647BE /* State.swift in Sources */,
+				9457A74A24B47CBF004647BE /* TodoItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
